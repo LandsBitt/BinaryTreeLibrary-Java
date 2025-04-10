@@ -18,14 +18,14 @@ public class Main {
                 System.out.println("Quantos Livros serão adicionados?");
                 int quantidade_aluno = scan.nextInt();
                 for (int i = 0; i < quantidade_aluno; i++) {
-                    System.out.println("Qual é o Isbn do Livro?");
+                    System.out.println("Qual é o Isbn do Livro " + i + " ?");
                     String isbn = scan.next();
                     scan.nextLine();
 
-                    System.out.println("Qual é o Titulo do Livro?");
+                    System.out.println("Qual é o Titulo  " + i + " ?");
                     String titulo = scan.next();
                     scan.nextLine();
-                    System.out.println("Qual é o autor");
+                    System.out.println("Qual é o autor " + i + " ?");
                     String autor = scan.next();
                     scan.nextLine();
                     
